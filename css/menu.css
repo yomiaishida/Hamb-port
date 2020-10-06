@@ -7,8 +7,8 @@
 
 .menu-wrap .toggler {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 25px;
+  left: 20px;
   z-index: 2;
   cursor: pointer;
   width: 50px;
@@ -18,8 +18,8 @@
 
 .menu-wrap .hamburger {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 20px;
+  left: 10px;
   z-index: 1;
   width: 60px;
   height: 60px;
