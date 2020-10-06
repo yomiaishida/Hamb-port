@@ -61,7 +61,7 @@ body {
 .btn {
   display: inline-block;
   border: none;
-  background: var(--overlay-color);
+  background: var(--secondary-color);
   color: #fff;
   padding: 0.75rem 1.5rem;
   margin-top: 1rem;
@@ -84,9 +84,38 @@ body {
   padding: 0 3rem;
 }
 
+.projects-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 #projects a {
   text-decoration: none;
   color: #fff;
+}
+
+.section-title {
+  font-size: 2rem;
+  display: block;
+  margin-top: 2rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  font-weight: 1;
+  text-transform: uppercase;
+}
+
+.lead {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.bottom-line {
+  height: 2px;
+  width: 5rem;
+  background: var(--overlay-color);
+  display: block;
+  margin: 0 auto 1rem auto;
 }
 
 .items {
@@ -99,6 +128,7 @@ body {
   background: var(--overlay-color);
   overflow: hidden;
   margin: 3px;
+  border-radius: 5px;
 }
 
 .item::after {
