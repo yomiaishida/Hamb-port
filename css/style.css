@@ -63,7 +63,7 @@ body {
   max-width: 100%;
   margin: auto;
   overflow: hidden;
-  padding: 0 3rem;
+  padding: 3rem;
 }
 
 #showcase {
@@ -123,17 +123,17 @@ section#about-a {
   color: #fff;
   margin: 0rem auto;
   overflow: hidden;
-  padding: 3rem 3rem;
+  padding: 3rem 3rem 0;
 }
 
 section#about-b,
 section#about-c {
   max-width: 100vw;
-  background: var(--overlay2-color);
+  background: var(--overlay-color);
   color: #ccc;
   margin: 0rem auto;
   overflow: hidden;
-  padding: 3rem 3rem;
+  padding: 0 3rem;
 }
 
 #about-a .about-info img {
@@ -177,18 +177,13 @@ section#about-c {
 }
 
 /* Project/work styles */
-#projects.container {
+section.project {
   max-width: 100vw;
   background: var(--overlay-color);
   color: #fff;
   margin: 0rem auto;
   overflow: hidden;
-  padding: 0 3rem;
-}
-
-.projects-container {
-  max-width: 1060px;
-  margin: 0 auto;
+  padding: 0 3rem 3rem;
 }
 
 #projects a {
@@ -199,11 +194,15 @@ section#about-c {
 .section-title {
   font-size: 2rem;
   display: block;
-  margin-top: 2rem;
   padding-bottom: 0.5rem;
   text-align: center;
   font-weight: 1;
   text-transform: uppercase;
+}
+
+.border {
+  border: 3px solid var(--secondary-color);
+  border-radius: 4px;
 }
 
 .bottom-line {
@@ -327,6 +326,8 @@ section#about-c {
   justify-content: space-between;
   height: 5rem;
   align-items: center;
+  padding: 0 3rem;
+  border-top: 1px solid var(--secondary-color);
 }
 
 #main-footer .social .fab {
