@@ -21,6 +21,7 @@ body {
 .lead {
   font-size: 1.3rem;
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 .text-center {
@@ -123,7 +124,8 @@ section#about-a {
   color: #fff;
   margin: 0rem auto;
   overflow: hidden;
-  padding: 3rem 3rem 0;
+  padding: 0rem 3rem 0;
+  border-bottom: 2px solid var(--primary-color);
 }
 
 section#about-b,
@@ -134,6 +136,7 @@ section#about-c {
   margin: 0rem auto;
   overflow: hidden;
   padding: 0 3rem;
+  border-bottom: 2px solid var(--primary-color);
 }
 
 #about-a .about-info img {
@@ -183,7 +186,7 @@ section.project {
   color: #fff;
   margin: 0rem auto;
   overflow: hidden;
-  padding: 0 3rem 3rem;
+  padding: 2rem;
 }
 
 #projects a {
@@ -198,11 +201,6 @@ section.project {
   text-align: center;
   font-weight: 1;
   text-transform: uppercase;
-}
-
-.border {
-  border: 3px solid var(--secondary-color);
-  border-radius: 4px;
 }
 
 .bottom-line {
