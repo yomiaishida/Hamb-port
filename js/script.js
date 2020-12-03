@@ -1,13 +1,6 @@
 const toggler = document.querySelector(".toggler");
 let ul = document.querySelector(".menu");
 
-console.log(ul);
-// ul = Array.from(ul);
-
-// ul.addEventListener("click", () => {
-//   console.log("clicked");
-// });
-
 let itemText = document
   .querySelector("#projects")
   .getElementsByClassName("item-text");
