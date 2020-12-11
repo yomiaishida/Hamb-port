@@ -18,9 +18,14 @@ const logger = () => {
 };
 
 const removeOverlay = (e) => {
-  if (e.target.classList.contains("li")) {
-    console.log("clicked");
+  if (
+    e.target.classList.contains("li") ||
+    e.target.classList.contains("overlay")
+  ) {
     toggler.checked = false;
+    itemText.forEach((item) => {
+      item.style.zIndex = "1";
+    });
   }
 };
 
@@ -40,5 +45,5 @@ $("#menu a, .btn").on("click", function (event) {
   }
 });
 
-ul.addEventListener("click", removeOverlay);
 toggler.addEventListener("change", logger);
+ul.addEventListener("click", removeOverlay);
